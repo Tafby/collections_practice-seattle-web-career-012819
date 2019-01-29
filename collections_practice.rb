@@ -9,5 +9,5 @@ def sort_array_char_count(string_array)
   string_array.sort { |a,b| a.length <=> b.length }
 end
 def swap_elemnets
-  array[1], array[2] = array[3], array[0]
+  array[1], array[2] = array[2], array[1]
 end
